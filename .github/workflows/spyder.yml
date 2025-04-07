@@ -30,7 +30,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install selenium requests
         apt update
-        apt install chromium-chromedriver
+        apt install -y chromium-chromedriver
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run static.py
       run: |
@@ -42,6 +42,7 @@ jobs:
       run: |
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
+        git checkout main
         git add .
         git commit -m "Update generated files" || echo "Nothing to commit"
         git push
