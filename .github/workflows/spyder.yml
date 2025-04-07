@@ -31,6 +31,7 @@ jobs:
         pip install selenium requests
         sudo apt update
         sudo apt install -y chromium-chromedriver
+        cp /usr/lib/chromium-browser/chromedriver /usr/bin
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run static.py
       run: |
