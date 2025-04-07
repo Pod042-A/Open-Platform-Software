@@ -9,10 +9,10 @@ Original file is located at
 # Install packages
 """
 
-!apt update
-!apt install chromium-chromedriver
-!cp /usr/lib/chromium-browser/chromedriver /usr/bin
-!pip install selenium
+# !apt update
+# !apt install chromium-chromedriver
+# !cp /usr/lib/chromium-browser/chromedriver /usr/bin
+# !pip install selenium
 
 """# Import packages
 
