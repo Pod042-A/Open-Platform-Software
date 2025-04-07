@@ -9,7 +9,7 @@ Original file is located at
 # Install package
 """
 
-!pip install requests
+# !pip install requests
 
 """# Import library"""
 
