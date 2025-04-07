@@ -1,0 +1,47 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: Spyder
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  schedule:
+  - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install selenium requests
+        apt update
+        apt install chromium-chromedriver
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Run static.py
+      run: |
+        python static.py
+    - name: Run api.py
+      run: |
+        python api.py
+    - name: Commit generated files
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add .
+        git commit -m "Update generated files" || echo "Nothing to commit"
+        git push
