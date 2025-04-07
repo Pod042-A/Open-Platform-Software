@@ -22,6 +22,10 @@ Original file is located at
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+import chromedriver_autoinstaller
+
+chromedriver_autoinstaller.install()
+
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
