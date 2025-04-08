@@ -73,22 +73,22 @@ def crawler(url: str) -> dict:
         match(divs[index].get_attribute('textContent')):
             case '詢問處：':
                 車站資訊['車站服務位置說明']['詢問處'] = re.sub(r'^\s+|\s+$|\t+', '', divs[index+1].get_attribute('textContent'))
-                break
+                
             case '飲用水：':
                 車站資訊['車站服務位置說明']['飲用水'] = divs[index+1].get_attribute('textContent')
-                break
+                
             case '洗手間：':
                 車站資訊['車站服務位置說明']['洗手間'] = divs[index+1].get_attribute('textContent')
-                break
+                
             case '無障礙電梯：':
                 車站資訊['車站服務位置說明']['無障礙電梯'] = re.sub(r'^\s+|\s+$|\t+', '', divs[index+1].get_attribute('textContent'))
-                break
+                
             case '置物櫃：':
                 車站資訊['車站服務位置說明']['置物櫃'] = re.sub(r'^\s+|\s+$|\t+', '', divs[index+1].get_attribute('textContent'))
-                break
+                
             case '哺乳室：':
                 車站資訊['車站服務位置說明']['哺乳室'] = divs[index+1].get_attribute('textContent')
-                break
+                
 
     車站資訊['出口資訊'] = list()
     表格資料 = [re.sub(r'\n+|\t+', '', element.get_attribute('innerHTML')) for element in driver.find_elements(by=By.TAG_NAME, value='td')]
