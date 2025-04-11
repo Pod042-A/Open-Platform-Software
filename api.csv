@@ -104,6 +104,7 @@ ID,ProviderId,nameZh,ddesc,departureZh,destinationZh,gxcode,RouteType,MasterRout
 2630,1,263,大溪 - 恩主公醫院,大溪,恩主公醫院,,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/2630/map/1819/image,,
 2650,1,265,桃園  -  鶯歌火車站,桃園巨蛋,鶯歌火車站,2650,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/2650/map/2093/image,,
 2652,1,265B,桃園-鶯歌火車站(繞駛鳳鳴火車站),桃園巨蛋,鶯歌火車站,2652,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/2652/map/2094/image,,
+2653,1,265C,桃園  -  鶯歌火車站(繞駛鳳鳴火車站),桃園巨蛋,鶯歌火車站,2653,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/2650/map/2093/image,,
 3550,1,301,桃園  -  楊梅,桃園巨蛋,楊梅火車站,3550,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/3550/map/1335/image,http://ebus.tycg.gov.tw/cms/api/route/3550/stop-address.pdf,7
 3551,1,301A,龜山  -  楊梅,壽山高中,楊梅火車站,3551,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/3551/map/1486/image,http://ebus.tycg.gov.tw/cms/api/route/3551/stop-address.pdf,6
 302,1,302,桃園  -  高鐵桃園站(經大竹),桃園,高鐵桃園站,302,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/302/map/1909/image,http://ebus.tycg.gov.tw/cms/api/route/302/stop-address.pdf,
