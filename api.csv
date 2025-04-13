@@ -104,7 +104,7 @@ ID,ProviderId,nameZh,ddesc,departureZh,destinationZh,gxcode,RouteType,MasterRout
 2630,1,263,大溪 - 恩主公醫院,大溪,恩主公醫院,,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/2630/map/1819/image,,
 2650,1,265,桃園  -  鶯歌火車站,桃園巨蛋,鶯歌火車站,2650,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/2650/map/2093/image,,
 2652,1,265B,桃園-鶯歌火車站(繞駛鳳鳴火車站),桃園巨蛋,鶯歌火車站,2652,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/2652/map/2094/image,,
-2653,1,265C,桃園  -  鶯歌火車站(繞駛鳳鳴火車站),桃園巨蛋,鶯歌火車站,2653,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/2650/map/2093/image,,
+2653,1,265C,桃園  -  鶯歌火車站(繞駛鳳鳴火車站),桃園巨蛋,鶯歌火車站,2653,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/2653/map/2135/image,,
 3550,1,301,桃園  -  楊梅,桃園巨蛋,楊梅火車站,3550,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/3550/map/1335/image,http://ebus.tycg.gov.tw/cms/api/route/3550/stop-address.pdf,7
 3551,1,301A,龜山  -  楊梅,壽山高中,楊梅火車站,3551,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/3551/map/1486/image,http://ebus.tycg.gov.tw/cms/api/route/3551/stop-address.pdf,6
 302,1,302,桃園  -  高鐵桃園站(經大竹),桃園,高鐵桃園站,302,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/302/map/1909/image,http://ebus.tycg.gov.tw/cms/api/route/302/stop-address.pdf,
@@ -444,12 +444,12 @@ ID,ProviderId,nameZh,ddesc,departureZh,destinationZh,gxcode,RouteType,MasterRout
 9020,1,F902,復興  -  新興,復興,新興,9020,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9020/map/1989/image,http://ebus.tycg.gov.tw/cms/api/route/9020/stop-address.pdf,10
 9021,1,F902A,復興  -  新興,復興,新興,9021,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9021/map/1990/image,http://ebus.tycg.gov.tw/cms/api/route/9021/stop-address.pdf,10
 9060,1,F906,三民  -  東眼山(經蝙蝠洞),三民,東眼山,9060,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9060/map/1496/image,http://ebus.tycg.gov.tw/cms/api/route/9060/stop-address.pdf,10
-901,40,F901(真好),復興-市界,復興,市界,901,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/901/map/2050/image,,10
+901,40,F901(真好),復興-市界,復興,市界,901,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/901/map/2130/image,,10
 902,40,F902B(真好),復興-新興,復興,新興,902,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/902/map/2051/image,,10
-9034,40,F903(真好),復興-霞雲,復興,霞雲,901,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/901/map/2050/image,,10
-9035,40,F903A(真好),復興-霞雲（經綠光森林）,復興,霞雲,901,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/901/map/2050/image,,10
-9036,40,F903E,復興-霞雲（經奎輝、復興、羅浮）,復興,霞雲,901,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/901/map/2050/image,,10
-9037,40,F903F,復興-霞雲（經羅浮 、奎輝）,復興,霞雲,901,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/901/map/2050/image,,10
+9034,40,F903(真好),復興-霞雲,復興,霞雲,9034,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9034/map/2131/image,,10
+9035,40,F903A(真好),復興-霞雲（經綠光森林）,復興,霞雲,9035,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9035/map/2132/image,,10
+9036,40,F903E,復興-霞雲（經奎輝、復興、羅浮）,,,9036,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9036/map/2133/image,,10
+9037,40,F903F,復興-霞雲（經羅浮 、奎輝）,,,9037,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9037/map/2134/image,,10
 9050,40,F905,復興  -  義興,復興,義興,9050,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9050/map/2008/image,http://ebus.tycg.gov.tw/cms/api/route/9050/stop-address.pdf,10
 9070,40,F907,復興  -  雪霧鬧,復興,雪霧鬧,9070,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9070/map/2006/image,http://ebus.tycg.gov.tw/cms/api/route/9070/stop-address.pdf,10
 9071,40,F907A,復興  -  雪霧鬧,,,9071,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9071/map/2005/image,,10
