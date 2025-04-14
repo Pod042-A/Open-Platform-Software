@@ -444,8 +444,6 @@ ID,ProviderId,nameZh,ddesc,departureZh,destinationZh,gxcode,RouteType,MasterRout
 9020,1,F902,復興  -  新興,復興,新興,9020,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9020/map/1989/image,http://ebus.tycg.gov.tw/cms/api/route/9020/stop-address.pdf,10
 9021,1,F902A,復興  -  新興,復興,新興,9021,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9021/map/1990/image,http://ebus.tycg.gov.tw/cms/api/route/9021/stop-address.pdf,10
 9060,1,F906,三民  -  東眼山(經蝙蝠洞),三民,東眼山,9060,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9060/map/1496/image,http://ebus.tycg.gov.tw/cms/api/route/9060/stop-address.pdf,10
-901,40,F901(真好),復興-市界,復興,市界,901,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/901/map/2130/image,,10
-902,40,F902B(真好),復興-新興,復興,新興,902,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/902/map/2051/image,,10
 9034,40,F903(真好),復興-霞雲,復興,霞雲,9034,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9034/map/2131/image,,10
 9035,40,F903A(真好),復興-霞雲（經綠光森林）,復興,霞雲,9035,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9035/map/2132/image,,10
 9036,40,F903E,復興-霞雲（經奎輝、復興、羅浮）,,,9036,RTY,,,RG,http://ebus.tycg.gov.tw/cms/api/route/9036/map/2133/image,,10
