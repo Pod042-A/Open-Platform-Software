@@ -1,4 +1,0 @@
-[log] clone project "yzu1111425/Open-Platform-Software"
-[log] add new file "log.txt"
-[log] edit file "log.txt"
-[log] push request
